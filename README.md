@@ -1,2 +1,0 @@
-# myresearch
-Trying sum out
