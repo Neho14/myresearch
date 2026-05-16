@@ -1,0 +1,107 @@
+/* Common Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0c11;  /* White background for the entire page */
+    color: rgb(0, 0, 0);             /* Dark text for contrast */
+    line-height: 1.6;
+}
+
+/* Header and Container */
+header {
+    background-color: #daff06;  /* White header */
+    color: rgb(68, 66, 66);             /* Dark text */
+    padding: 1px 0;
+    border-bottom: 1px solid rgb(168, 167, 167);
+}
+
+.header-container {
+    width: 40%;
+    max-width: 1000px;
+    margin: 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo img {
+    height: 94px;  
+    width: 94px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);          /* Dark text for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner Image Section */
+.banner-container {
+    width: 80%;          /* Set the container width */
+    max-width: 1200px;     /* Maximum width to control scaling */
+    margin: 20px auto;     /* Center the container with vertical spacing */
+    text-align: center;    /* Center the banner image */
+}
+.banner-image {
+    display: block;      /* Ensures margin auto works */
+    margin: 0 auto;      /* Centers horizontally */
+    width: 50%;       /* Make the image fill the container width */
+    height: auto;      /* Maintain the aspect ratio */
+}
+
+/* Main Content Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #daff06;       /* White background */
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+/* The discover the gallery heading*/
+/* Style the anchor element with a span inside */
+.styled-link {
+  text-decoration: none;         /* Remove underline */
+}
+
+.styled-link span {
+  display: inline-block;         /* Allow padding and border styling */
+  color: #fff;                   /* White font color */
+  background-color: #000;        /* Black background */
+  padding: 4px 15px;            /* Adjust padding as desired */
+  border: 2px solid #000;        /* Border matching the background */
+  border-radius: 40px;           /* Rounded corners */
+  transition: background-color 0.3s;
+}
+
+/* Optional hover effect */
+.styled-link span:hover {
+  background-color: #333;        /* Darker shade on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0c0c11;  /* White footer */
+    color: rgb(92, 88, 88);             /* Dark text */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgb(168, 167, 167);
+}

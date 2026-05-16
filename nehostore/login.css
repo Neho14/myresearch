@@ -1,0 +1,81 @@
+/* General Body Styling */
+body {
+    background-image: url('NEHO2.png'); /* Replace with your image path */
+    background-size: cover;          /* Make image cover the whole screen */
+    background-position: center;     /* Center the image */
+    background-repeat: no-repeat;    /* Don't repeat the image */
+    background-attachment: fixed;    /* Keeps background fixed when scrolling */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container Styling */
+.login-container {
+  background-color: #0c0c11;
+  padding: 20px 40px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Heading Styling */
+.login-container h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+  color: #808080;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded borders */
+  box-sizing: border-box;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+  background-color: #daff06; /* Black background */
+  color: #808080;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #333; /* Darker shade of black on hover */
+}
+
+/* Links Styling */
+.login-links a {
+  color: #808080; /* Gray links */
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
